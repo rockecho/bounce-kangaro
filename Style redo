@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    background: #d2691e; /* fallback */
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+h1 {
+    font-size: 2em;
+    margin-top: 20px;
+    color: #fff;
+    text-shadow: 2px 2px #000;
+}
+
+canvas {
+    background: url('https://i.imgur.com/JkXf9jA.png'); /* wooden court texture */
+    background-size: cover;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#scoreDisplay {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #ff5733;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ff2e00;
+}
